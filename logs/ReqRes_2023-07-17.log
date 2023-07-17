@@ -1,0 +1,53 @@
+2023-07-17 21:29:06 [31merror[39m: 	uncaughtException: Cannot find module 'mysql'
+Require stack:
+- D:\Projects\inous_main_node_backend\config\dbconnect.js
+- D:\Projects\inous_main_node_backend\app.js
+Error: Cannot find module 'mysql'
+Require stack:
+- D:\Projects\inous_main_node_backend\config\dbconnect.js
+- D:\Projects\inous_main_node_backend\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\Projects\inous_main_node_backend\config\dbconnect.js:1:15)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+2023-07-17 21:29:50 [31merror[39m: 	uncaughtException: Cannot find module './utils/dbutils'
+Require stack:
+- D:\Projects\inous_main_node_backend\app.js
+Error: Cannot find module './utils/dbutils'
+Require stack:
+- D:\Projects\inous_main_node_backend\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1075:15)
+    at Module._load (node:internal/modules/cjs/loader:920:27)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\Projects\inous_main_node_backend\app.js:22:17)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-07-17 21:30:58 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-17 21:31:14 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-17 21:31:26 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-17 21:31:37 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-17 21:31:43 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-17 21:31:58 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-17 21:33:14 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-17 21:34:12 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-17 21:48:58 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-17 21:49:04 [32minfo[39m: 	Requested URL : 
+2023-07-17 21:49:04 [32minfo[39m: 	/
+2023-07-17 21:49:05 [32minfo[39m: 	Requested URL : 
+2023-07-17 21:49:05 [32minfo[39m: 	/favicon.ico
+2023-07-17 21:49:25 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-17 21:49:26 [32minfo[39m: 	Requested URL : 
+2023-07-17 21:49:26 [32minfo[39m: 	/
+2023-07-17 21:49:26 [32minfo[39m: 	Requested URL : 
+2023-07-17 21:49:26 [32minfo[39m: 	/favicon.ico
+2023-07-17 21:49:35 [34mdebug[39m: 	inouous API server is listening at http://:::5555

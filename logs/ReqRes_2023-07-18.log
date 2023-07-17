@@ -1,0 +1,111 @@
+2023-07-18 00:04:09 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-18 00:04:11 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-18 00:04:12 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-18 00:05:08 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-18 00:07:04 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-18 00:07:15 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-18 00:10:44 [32minfo[39m: 	Requested URL : 
+2023-07-18 00:10:44 [32minfo[39m: 	/login
+2023-07-18 00:10:44 [32minfo[39m: 	SELECT * FROM login where email='mahesh@gmail.com'
+2023-07-18 00:10:44 [32minfo[39m: 	SELECT * FROM login where email='mahesh@gmail.com' and password='mahesh' 
+2023-07-18 00:10:44 [32minfo[39m: 	select * from login where id=undefined
+2023-07-18 00:10:44 [31merror[39m: 	uncaughtException: Cannot read properties of null (reading '0')
+TypeError: Cannot read properties of null (reading '0')
+    at D:\Projects\inous_main_node_backend\model\adminModel.js:40:57
+    at Query.<anonymous> (D:\Projects\inous_main_node_backend\utils\dbutils.js:25:11)
+    at Query.<anonymous> (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\Connection.js:488:16)
+    at Sequence.end (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query.ErrorPacket (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\sequences\Query.js:92:8)
+    at Protocol._parsePacket (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-07-18 00:11:19 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-18 00:11:22 [32minfo[39m: 	Requested URL : 
+2023-07-18 00:11:22 [32minfo[39m: 	/login
+2023-07-18 00:11:22 [32minfo[39m: 	SELECT * FROM login where email='mahesh@gmail.com'
+2023-07-18 00:11:22 [32minfo[39m: 	SELECT * FROM login where email='mahesh@gmail.com' and password='mahesh' 
+2023-07-18 00:11:22 [32minfo[39m: 	select * from login where id=undefined
+2023-07-18 00:11:22 [31merror[39m: 	uncaughtException: Cannot read properties of null (reading '0')
+TypeError: Cannot read properties of null (reading '0')
+    at D:\Projects\inous_main_node_backend\model\adminModel.js:41:57
+    at Query.<anonymous> (D:\Projects\inous_main_node_backend\utils\dbutils.js:25:11)
+    at Query.<anonymous> (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\Connection.js:488:16)
+    at Sequence.end (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query.ErrorPacket (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\sequences\Query.js:92:8)
+    at Protocol._parsePacket (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-07-18 00:12:16 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-18 00:12:20 [32minfo[39m: 	Requested URL : 
+2023-07-18 00:12:20 [32minfo[39m: 	/login
+2023-07-18 00:12:20 [32minfo[39m: 	SELECT * FROM login where email='mahesh@gmail.com'
+2023-07-18 00:12:20 [32minfo[39m: 	SELECT * FROM login where email='mahesh@gmail.com' and password='mahesh' 
+2023-07-18 00:12:20 [32minfo[39m: 	select * from login where id=1
+2023-07-18 00:12:20 [31merror[39m: 	uncaughtException: Cannot read properties of null (reading '0')
+TypeError: Cannot read properties of null (reading '0')
+    at D:\Projects\inous_main_node_backend\model\adminModel.js:40:57
+    at Query.<anonymous> (D:\Projects\inous_main_node_backend\utils\dbutils.js:25:11)
+    at Query.<anonymous> (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\Connection.js:488:16)
+    at Sequence.end (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query.ErrorPacket (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\sequences\Query.js:92:8)
+    at Protocol._parsePacket (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\Projects\inous_main_node_backend\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-07-18 00:13:14 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-18 00:13:17 [32minfo[39m: 	Requested URL : 
+2023-07-18 00:13:17 [32minfo[39m: 	/login
+2023-07-18 00:13:17 [32minfo[39m: 	SELECT * FROM login where email='mahesh@gmail.com'
+2023-07-18 00:13:17 [32minfo[39m: 	SELECT * FROM login where email='mahesh@gmail.com' and password='mahesh' 
+2023-07-18 00:13:17 [32minfo[39m: 	select * from login where PersonID=1
+2023-07-18 00:25:43 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-18 00:27:51 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-18 00:28:52 [32minfo[39m: 	Requested URL : 
+2023-07-18 00:28:52 [32minfo[39m: 	/patients
+2023-07-18 00:28:52 [31merror[39m: 	uncaughtException: adminModel.patients is not a function
+TypeError: adminModel.patients is not a function
+    at exports.patients (D:\Projects\inous_main_node_backend\controllers\adminCtrl.js:29:14)
+    at Layer.handle [as handle_request] (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Projects\inous_main_node_backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\index.js:47:12)
+2023-07-18 00:30:01 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-18 00:30:12 [32minfo[39m: 	Requested URL : 
+2023-07-18 00:30:12 [32minfo[39m: 	/patients
+2023-07-18 00:30:12 [31merror[39m: 	uncaughtException: adminModel.patients is not a function
+TypeError: adminModel.patients is not a function
+    at exports.patients (D:\Projects\inous_main_node_backend\controllers\adminCtrl.js:29:14)
+    at Layer.handle [as handle_request] (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Projects\inous_main_node_backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\index.js:47:12)
+2023-07-18 00:30:33 [34mdebug[39m: 	inouous API server is listening at http://:::5555
+2023-07-18 00:30:51 [32minfo[39m: 	Requested URL : 
+2023-07-18 00:30:51 [32minfo[39m: 	/patients
+2023-07-18 00:30:51 [31merror[39m: 	uncaughtException: adminModel.patients is not a function
+TypeError: adminModel.patients is not a function
+    at exports.patients (D:\Projects\inous_main_node_backend\controllers\adminCtrl.js:29:14)
+    at Layer.handle [as handle_request] (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Projects\inous_main_node_backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Projects\inous_main_node_backend\node_modules\express\lib\router\index.js:47:12)
