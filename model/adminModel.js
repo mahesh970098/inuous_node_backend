@@ -53,7 +53,7 @@ exports.login = (email, password, callback) => {
 };
 
 exports.patients = (callback) => {
-  let cntxtDtls = "Get roles api";
+  let cntxtDtls = "Get patients api";
   QRY_TO_EXEC = `SELECT * FROM patients;`;
   dbutil.execQuery(
     sqldb.MySQLConPool,
@@ -65,6 +65,57 @@ exports.patients = (callback) => {
         callback(err, 0);
         return;
       } else {
+        callback(err, results);
+        return;
+      }
+    }
+  );
+};
+
+exports.insert_patientdata = (
+  patient_id,
+  oximeter,
+  weight,
+  thermometer,
+  BP,
+  callback
+) => {
+  let cntxtDtls = "Get insert_patientdata api";
+  let current_timestamp = moment().format("YYYY-MM-DD");
+  QRY_TO_EXEC = `update patients set oximeter="${oximeter}",weight="${weight}",thermometer="${thermometer}",BP="${BP}",time="${current_timestamp}" where patient_id=${patient_id};`;
+  // QRY_TO_EXEC = `update reverted_stud_csv_admin_t set track_in_progress=2,choosen_universites="${choosen_university}",choosen_comments="${choosen_comments}",cons_admin_trackdate="${current_timestamp}"
+  //  where id=${primary_id};`;
+  dbutil.execQuery(
+    sqldb.MySQLConPool,
+    QRY_TO_EXEC,
+    cntxtDtls,
+    [],
+    function (err, results) {
+      if (err) {
+        callback(err, 0);
+        return;
+      } else {
+        callback(err, results);
+        return;
+      }
+    }
+  );
+};
+
+exports.patients_data = (patient_id, callback) => {
+  let cntxtDtls = "Get patients_data api";
+  QRY_TO_EXEC = `SELECT * FROM patients where patient_id=${patient_id};;`;
+  dbutil.execQuery(
+    sqldb.MySQLConPool,
+    QRY_TO_EXEC,
+    cntxtDtls,
+    [],
+    function (err, results) {
+      if (err) {
+        callback(err, 0);
+        return;
+      } else {
+        // console.log(results);
         callback(err, results);
         return;
       }
